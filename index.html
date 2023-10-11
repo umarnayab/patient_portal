@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Care System</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="patient-info">
+        <section class="section greetings">
+          <div class="card welcome">
+            <h1 class="greetings-heading">Welcome, Yousaf</h1>
+            <label for="btn" class="btn-label"
+              >You have 3 new notifications</label
+            >
+            <div class="btn-handling">
+              <button class="btn btn-call">call</button>
+              <button class="btn btn-video">video</button>
+            </div>
+            <button class="btn-message">Message</button>
+          </div>
+          <div class="card schedules">
+            <div class="schedules-header">
+              <h4>Schedules</h4>
+              <h4>02 october, 2020</h4>
+            </div>
+            <div class="schedules-body">
+              <ul>
+                <div class="time-part">
+                  <li>08:45 AM</li>
+                  <li>12:00 PM</li>
+                  <li>04:00 PM</li>
+                </div>
+                <div>
+                  <div class="test-part">
+                    <li>Temperature</li>
+                    <li>Blood Glucose</li>
+                    <li>Exforge 100mg</li>
+                  </div>
+                </div>
+                <div class="reference-part">
+                  <li>due <br />23 min</li>
+                  <li>
+                    due <br />
+                    1hr 43min
+                  </li>
+                  <li>
+                    due <br />
+                    23 min
+                  </li>
+                </div>
+              </ul>
+            </div>
+            <button class="btn-schedules">View All</button>
+          </div>
+        </section>
+
+        <section class="section examination-details">
+          <div class="first-hand-check-up">
+            <div class="card bp-temp heart-rate">
+              <div class="heart-icon">
+                <img src="images/ecg.png" alt="ecg" />
+              </div>
+              <div class="heart-rate-details">
+                <h5>Heart Rate</h5>
+                <div class="value-unit-combined">
+                  <div class="value">80</div>
+                  <div class="unit">bpm</div>
+                </div>
+                <div class="recording-date">30 oct, 2019 09:00 PM</div>
+              </div>
+            </div>
+            <div class="card bp-temp temperature">
+              <div class="heart-icon">
+                <img src="images/bp.png" alt="" />
+              </div>
+              <div class="heart-rate-details">
+                <h5>Heart Rate</h5>
+                <div class="value-unit-combined">
+                  <div class="value">80</div>
+                  <div class="unit">bpm</div>
+                </div>
+                <div class="recording-date">30 oct, 2019 09:00 PM</div>
+              </div>
+            </div>
+            <div class="card bp-temp blood-pressure">
+              <div class="heart-icon">
+                <img src="images/bg.png" alt="" />
+              </div>
+              <div class="heart-rate-details">
+                <h5>Heart Rate</h5>
+                <div class="value-unit-combined">
+                  <div class="value">80</div>
+                  <div class="unit">bpm</div>
+                </div>
+                <div class="recording-date">30 oct, 2019 09:00 PM</div>
+              </div>
+            </div>
+          </div>
+          <div class="current-medication">
+            <div class="card prescription">
+              <div class="current-medication-header">
+                <div>current Medication</div>
+                01 Oct, 2020
+              </div>
+              <div class="current-medication-body">
+                <div class="list-icon-box">
+                  <div class="list-icon">
+                    <img class="list-image" src="images/temp.png" alt="" />
+                  </div>
+                  <div class="list-icon">
+                    <img class="list-image" src="images/temp.png" alt="" />
+                  </div>
+                  <div class="list-icon">
+                    <img class="list-image" src="images/temp.png" alt="" />
+                  </div>
+                </div>
+                <div class="list-box">
+                  <ul class="current-medication-prescript-list">
+                    <li>
+                      Exforge 1000mg,
+                      <div class="line-break">2 Pills Daily</div>
+                    </li>
+                    <li>
+                      Acebotolu 400mg
+                      <div class="line-break">01+01+01</div>
+                    </li>
+                    <li>
+                      Penbretein 300mg
+                      <div class="line-break">01+01+01</div>
+                    </li>
+                    <li>
+                      Neo Mycin 700mg
+                      <div class="line-break">02+00+02</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="btn btn-current-medication">
+                View Doctor's Note
+              </button>
+            </div>
+            <div class="card prescription prescription-trim">
+              <div class="dashboard-header">
+                <div class="dashboard-heading">Dashboard</div>
+                <div class="heart-beat-plate">
+                  <div class="heart-icon">
+                    <img src="images/ecg.png" alt="ecg" />
+                  </div>
+                  <div class="heart-beat-rate">
+                    <h5>Heart Rate</h5>
+                    <p><b id="bp-value">80</b> bpm</p>
+                    <p>30 oct, 2019 09:00 PM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="dashboard-body"></div>
+              <button class="btn btn-current-medication btn-dashboard">
+                View All
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section next-visit">
+          <div class="card next-visit-details">g</div>
+        </section>
+      </section>
+
+      <section class="hospital-records">
+        <section class="section card records invoice">
+          Invoice of payments
+        </section>
+        <section class="section card records lab-tests">Lab test</section>
+        <section class="section card records reports">Records</section>
+      </section>
+    </main>
+  </body>
+</html>
